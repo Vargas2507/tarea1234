@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #FF6B6B;
+  color: #ffffff;
+  padding: 20px;
+  border: 1px solid #1a0b0b;
+  margin: 0 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: auto;
+  
+}
+
+/* Estilos de las secciones */
+section {
+  margin: 20px 0;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #FF6B6B;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #FF6B6B;
+}
+
+section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #FF6B6B;
+}
+
+section p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+/* Estilos de las imágenes */
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Estilos de los videos */
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  height: 300px;
+}
+
+/* Estilos específicos de la sección de colores */
+#colores {
+  background-color: #FFE4E1;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#colores figure img {
+  width: 100%;
+}
+
+/* Estilos específicos de la sección del modelo de caja */
+#box_model {
+  background-color: #F0FFFF;
+  padding: 20px;
+}
+
+#box_model figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
